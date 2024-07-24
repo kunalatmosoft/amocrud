@@ -1,3 +1,29 @@
+Here's a detailed `README.md` for the `amocrud` library, including usage instructions:
+
+**`amocrud/package/README.md`**
+
+```markdown
+# amocrud
+
+`amocrud` is a simple and lightweight CRUD (Create, Read, Update, Delete) library for SQLite in Node.js. It provides an easy-to-use API for performing basic database operations on SQLite databases.
+
+## Features
+
+- **Create**: Insert new records into a table.
+- **Read**: Query records from a table.
+- **Update**: Modify existing records.
+- **Delete**: Remove records from a table.
+
+## Installation
+
+You can install `amocrud` via npm:
+
+```bash
+npm install amocrud
+```
+
+
+
 # Documentation
 
 ```
@@ -71,29 +97,7 @@ async function runTests() {
 runTests();
 ```
 
-Here's a detailed `README.md` for the `amocrud` library, including usage instructions:
 
-**`amocrud/package/README.md`**
-
-```markdown
-# amocrud
-
-`amocrud` is a simple and lightweight CRUD (Create, Read, Update, Delete) library for SQLite in Node.js. It provides an easy-to-use API for performing basic database operations on SQLite databases.
-
-## Features
-
-- **Create**: Insert new records into a table.
-- **Read**: Query records from a table.
-- **Update**: Modify existing records.
-- **Delete**: Remove records from a table.
-
-## Installation
-
-You can install `amocrud` via npm:
-
-```bash
-npm install amocrud
-```
 
 ## Usage
 
