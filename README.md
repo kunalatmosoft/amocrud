@@ -1,7 +1,7 @@
 # Documentation
 
 ```
-npm install amocrud sqlite3
+npm install amocrud
 ```
 
 ```javascript
