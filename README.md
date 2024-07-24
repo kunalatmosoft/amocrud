@@ -41,7 +41,7 @@ async function runTests() {
           db.update({ id: result.id }, { email: 'john.doe@example.com' }, (err, result) => {
             if (err) throw err;
             console.log('Record updated:', result);
-/* 
+
             // DELETE
             db.delete({ id: result.id }, (err, result) => {
               if (err) throw err;
@@ -51,7 +51,7 @@ async function runTests() {
               db.read({ id: result.id }, (err, rows) => {
                 if (err) throw err;
                 console.log('Record after deletion:', rows);
-                 */
+                 
 
                 // Close the database
                 db.db.close((err) => {
